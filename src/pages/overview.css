@@ -1,0 +1,15 @@
+
+
+.headlines{
+    padding: 10px;
+}
+
+.headlines .text{
+    all: unset;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #555;
+}
+.headlines label{
+    font-weight: bold;
+}

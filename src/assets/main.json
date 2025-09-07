@@ -1,0 +1,65 @@
+{
+    "header":[
+        "Travel Registration Management System",
+        "Organized Student Travel Data for Palić & Zlatibor Destinations"
+    ],
+
+    "footer":[
+        "Heli9 Labs"
+    ],
+
+    "Overview":{
+        "dashboard":{
+            "Total Registrations":["7", "Complete apllications"],
+            "Destinations" : ["7", " "],
+            "Countries": ["7", "Different Naionalities"]
+        },
+        "infomatics":{
+            "Fun Fact": [
+                [
+                "Most Popular Destination",
+                "ri-map-pin-line",
+                "Based on current sign-ups, Kopaonik and Tara in December attract the highest number of international students for group and solo trips."
+                ],
+                [
+                "Traveler Diversity",
+                "ri-team-line",
+                "Students from Canada, Australia, Spain, USA, UK, Germany, and South Korea have registered — making this a truly global travel experience."
+                ]
+            ],
+            "Alert": [
+                [
+                "December Trips",
+                "ri-calendar-event-line",
+                "Travelers heading to Kopaonik (Dec 10–12) and Tara (Dec 17–19) should book accommodation early, as ski resorts fill up quickly during peak season."
+                ],
+                [
+                "November Plans",
+                "ri-error-warning-line",
+                "Trips to Fruška Gora (Nov 20–22) and Niš (Nov 27–29) may face unpredictable autumn weather. Pack warm clothes and check transport conditions."
+                ],
+                [
+                "September Early Start",
+                "ri-sun-cloudy-line",
+                "Grace Kim’s trip to Subotica (Sept 18–20) kicks off the season. Expect mild weather, but carry light jackets for cool evenings."
+                ]
+            ]
+        }
+    },
+
+    "MonthData":{
+        "January": ["Winter", "ri-snowflake-line"],
+        "February": ["Winter", "ri-snowflake-line"],
+        "March": ["Spring", "ri-flower-line"],
+        "April": ["Spring", "ri-flower-line"],
+        "May": ["Spring", "ri-sun-line"],
+        "June": ["Summer", "ri-sun-line"],
+        "July": ["Summer", "ri-sun-line"],
+        "August": ["Summer", "ri-sun-line"],
+        "September": ["Autumn", "ri-leaf-line"],
+        "October": ["Autumn", "ri-leaf-line"],
+        "November": ["Autumn", "ri-rainy-line"],
+        "December": ["Winter", "ri-snowy-line"]
+    }
+
+}

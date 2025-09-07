@@ -1,0 +1,15 @@
+.collar{
+    font-size: 1.05rem;
+    color: #555;
+    text-align: left;
+    width: 90%;
+    padding: 10px 10px ;
+    margin: 20px 10px 0 10px;
+    background-color: #5555551d;
+    border-left: 4px solid #4e7db0;
+    border-radius: 10px;
+}
+
+.collar small i{
+    margin: 0 10px 0 0;
+}

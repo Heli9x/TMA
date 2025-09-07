@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand'
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.container{
+  background-color: white;
+  box-shadow: 0 0 2px #555;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+header{
+  padding: 10px 0 20px 0;
+  min-height: 100px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #444a4f9d;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-image: url(https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg);
+}
+
+.title h2{
+  font-size: 2.05rem;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.title .small{
+  font-size: .85rem;
+}
+
+.menu{
+  min-height: 200px;
+  width: 100%;
+  container-type: inline-size;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.menu nav{
+  flex: 1;
+}
+
+.menu nav .tabs{
+  display: flex;
+  width: 100%;
+}
+
+.menu nav .tabs > a{
+  flex: 1;
+}
+
+.menu nav .tabs a{
+  border: none;
+}
+
+.menu nav .tabs a button{
+  width: 25vw;
+  height: 100px;
+  padding: 0 5px;
+  background-color: #35404f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.menu nav .tabs button:hover, .menu nav .tabs button:focus{
+  background-color: white;
+  color: #4e7dbc;
+  border-bottom: 1px solid #4e7dbc;
+  transition: all 0.5s;
+}
+
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background-color: #0c1013c9;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-image: url(https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg);
+  height: 60px;
+  color: white;
+  text-align: center;
+}
+
+footer .label{
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+}
+
+@container (max-width: 200px){
+  .menu nav .tabs{
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .menu nav .tabs a{
+    width: 50px;
+  }
+  .menu nav .tabs button{
+    height: 100px;
+  }
+  .menu nav .tabs i{
+    visibility: visible;
+  }
+  .menu nav .tabs button .text{
+    visibility: hidden;
+  }
+}
+
+.page{
+  min-height: 300px;
+  width: 100vw;
+  padding: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}

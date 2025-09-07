@@ -1,0 +1,42 @@
+.table-container{
+    overflow: hidden;
+    width: 100vw;
+    overflow-x: scroll;
+    padding: 10px;
+}
+table{
+    all: unset;
+    border-collapse: collapse;
+    max-width: 100vw;
+    overflow-x: scroll;
+}
+thead{
+    background-color: #2d3037;
+}
+th {
+    background-color: #2d3037;
+    color: white;
+    padding: 12px 8px;
+    text-align: left;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+td {
+    padding: 10px 8px;
+    background: white;
+    transition: all .25s;
+}
+
+tr:nth-child(even) td {
+    background: #f8f9fa;
+}
+
+tr:hover td, tr:focus td{
+    background: #2d3037;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px #333;
+}

@@ -1,0 +1,62 @@
+.carousel{
+    padding: 10px;
+    min-height: 100px;
+}
+
+.carousel .headlines{
+    padding: 10px;
+}
+
+.carousel .headlines .text{
+    all: unset;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #555;
+}
+.carousel .headlines label{
+    font-weight: bold;
+}
+
+.carousel .cards{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+}
+
+.cards .card{
+    height: 70px;
+    width: 150px;
+    background-color: rgba(9, 24, 71, 0.729);
+    background-image: url("../assets/cardbg/132358133717.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    overflow: hidden;
+    box-shadow: 0 0 1px #555;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card .title{
+    font-weight: 400;
+    font-size: .9rem;
+    color: white;
+    text-align: left;
+    margin: 0 0 5px 0;
+}
+
+.card .num{
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #c6d0dd;
+}
+
+.card .descript{
+    color: #292e3d;
+    font-size: .75rem;
+    font-weight: 500;
+}
